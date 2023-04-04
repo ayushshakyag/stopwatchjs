@@ -1,0 +1,64 @@
+/* default styles for the page */
+body{
+  color: white;
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  
+}
+
+
+.watch-container{
+  margin: auto;
+  width: 50%;
+  height: 20rem;
+  border:1px solid #eaeaea;
+  background-color: darkgray;
+	text-align:center;
+  padding: 10px;
+}
+
+
+/* stopwatch timer */ 
+#stopwatch {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 2rem;
+}
+
+#stopwatch span {
+  display: inline-block;
+  width: 2.5rem;
+}
+
+/* control buttons */
+#start-btn,
+#stop-btn,
+#reset-btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: #29c5844d;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover styles for control buttons */
+#start-btn:hover,
+#stop-btn:hover,
+#reset-btn:hover {
+  border: 1px solid #ffffff;
+    background-color: rgba(255,159,0,.08);
+    color: #ffffff;
+}
+
+
+/* Disable the start and stop buttons */
+#start-btn:disabled,
+#stop-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
