@@ -18,6 +18,7 @@ body{
   background-color: darkgray;
 	text-align:center;
   padding: 10px;
+  border-radius: 25px;
 }
 
 
@@ -61,4 +62,24 @@ body{
 #stop-btn:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
+}
+
+/* media query for small screens */
+@media only screen and (max-width: 740px) {
+  .watch-container {
+    width: 90%;
+    max-width: none;
+  }
+  
+  #stopwatch {
+    font-size: 3rem;
+  }
+  
+  #start-btn,
+  #stop-btn,
+  #reset-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+  }
 }
