@@ -1,12 +1,12 @@
 /* default styles for the page */
 body{
   color: white;
-  background-color: darkgray;
+  background-color: black;
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: sans-serif, 'Times New Roman', Times, serif;
-  
+  background-image: url("http://images6.fanpop.com/image/photos/33400000/Whitebeard-Vs-Akainu-one-piece-33447033-1593-1000.jpg");
 }
 
 
@@ -14,8 +14,8 @@ body{
   margin: auto;
   width: 50%;
   height: 20rem;
-  border:1px solid #eaeaea;
-  background-color: darkgray;
+  border: 1px solid #c200ff52;
+  background-color: transparent;
 	text-align:center;
   padding: 10px;
   border-radius: 25px;
@@ -60,7 +60,7 @@ body{
 /* Disable the start and stop buttons */
 #start-btn:disabled,
 #stop-btn:disabled {
-  background-color: #cccccc;
+  background-color: #ff0000;
   cursor: not-allowed;
 }
 
