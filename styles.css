@@ -7,6 +7,7 @@ body{
   text-align: center;
   font-family: sans-serif, 'Times New Roman', Times, serif;
   background-image: url("https://unsplash.com/photos/nU-uOifIwEk/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8b25lJTIwcGllY2V8ZW58MHx8fHwxNjkwODgxMTQ2fDA&force=true&w=1920");
+  background-size: cover;
 }
 
 
